@@ -3,4 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_render():
-    return 'Hello, render!'
+    return 'Hi, render!'
+@app.route('/debug')
+def hello_render():
+    return 'fine!'
